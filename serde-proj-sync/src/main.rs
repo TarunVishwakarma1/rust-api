@@ -38,13 +38,13 @@ struct Geo {
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct Company {
     name: String,
-    catchPhrase: String,
+    catch_phrase: String,
     bs: String,
 }
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct Post {
-    userId: i32,
+    user_id: i32,
     id: i32,
     title: String,
     body: String,
